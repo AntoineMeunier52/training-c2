@@ -7,9 +7,12 @@ void ft_show_tab(struct s_stock_str *par);
 
 int main(void)
 {
-    char *lol[8] = {"antoine", "et", "toi", "comment", "t'appelle", "tu", "mon", "gars"};
+    char *lol[3];
 
-    t_stock_str *plz = ft_strs_to_tab(8, lol);
+    lol[0] = "oui";
+    lol[1] = "mon gars";
+    lol[2] = "alz";
+    t_stock_str *plz = ft_strs_to_tab(3, lol);
     ft_show_tab(plz);
     free(plz);
     return (0);
