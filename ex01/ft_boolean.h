@@ -8,7 +8,7 @@ typedef int t_bool;
 #define FALSE 0
 #define TRUE 1
 
-#de
+#define SUCCES 0
 #define EVEN_MSG "I have an even number of arguments.\n"
 #define ODD_MSG "I have an odd number of arguments.\n"
 
