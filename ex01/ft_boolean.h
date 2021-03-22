@@ -3,15 +3,15 @@
 
 #include <unistd.h>
 
-typedef char t_bool;
+typedef int t_bool;
 
 #define FALSE 0
 #define TRUE 1
 
-#define SUCCES 0
+#de
 #define EVEN_MSG "I have an even number of arguments.\n"
 #define ODD_MSG "I have an odd number of arguments.\n"
 
-#define EVEN(x) ((x % 2) ? 0 : 1)
+#define EVEN(X) (X % 2) == 0
 
 #endif
